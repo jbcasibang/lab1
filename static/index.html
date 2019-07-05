@@ -10,8 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- this is the link for the Css-->
 	 <link rel="stylesheet" href="css/Style.css">
-	<!-- background-->
-	<link rel="stylesheet" href="js/javascript.js">
+	
 	
 	<!-- Navigation bar-->
 <nav class="w3-bar w3-black">
@@ -107,7 +106,38 @@
   <a href="#"><i class="fa fa-linkedin"></i></a>
   <p class="w3-medium">
   </p>
+  
+  
 </footer>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
 </html>
 </body>
+
 
