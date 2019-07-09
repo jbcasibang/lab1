@@ -1,5 +1,19 @@
 * {box-sizing:border-box}
 
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
