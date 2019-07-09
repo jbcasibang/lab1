@@ -39,15 +39,44 @@
 		<div>
 			<h1><center>Casibang, Jasfer Cid B. - SF 181</center></h1>
 			<p>Gamer &middot; Weebo &middot; Hoping for the best</p>
-		</div>
+			
+			<style>
+			background-image: url("images/3.jpg");
+			<h4>Experience</h4>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
 
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="image/1.jpg" alt="Chania">
+      <div class="carousel-caption">
+        <h3>Lol</h3>
+        <p>LA is always so much fun!</p>
+      </div>
+    </div>
 
-		<h4>Experience</h4>
-		
-<img class="mySlides" src="img_snowtops.jpg">
-<img class="mySlides" src="img_lights.jpg">
-<img class="mySlides" src="img_mountains.jpg">
-<img class="mySlides" src="img_forest.jpg">
+    <div class="item">
+      <img src="image/1.jpg" alt="Chicago">
+      <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago!</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="image/1.jpg" alt="New York">
+      <div class="carousel-caption">
+        <h3>New York</h3>
+        <p>We love the Big Apple!</p>
+      </div>
+    </div>
+  </div>
 
   <!-- Left and right controls -->
   <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -59,6 +88,13 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+			
+			</style>
+		</div>
+
+
+		
+		
 	
 
 	<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
@@ -85,33 +121,6 @@
   
   
 </footer>
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
 </script>
 </html>
 </body>
