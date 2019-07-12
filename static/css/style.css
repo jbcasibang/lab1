@@ -16,7 +16,7 @@ html {
 body { 
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
-    background: url(images/4.jpg) gray;
+    background: url('images/4.jpg') gray;
 	color: #555753; 
 	margin: 0; 
 	padding: 0;
