@@ -50,7 +50,7 @@ body{
 	transform: translate(-50%, -50%);
 	font-size: 80px;
 	transition: 0.5s;
-	color: black;
+	color: white;
 }
 
 .container .box:hover .icon .fa{
@@ -84,6 +84,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
+	color: aliceblue;
 }
 
 .container .box:nth-child(1) .icon{
