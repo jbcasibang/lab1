@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<!--Link to nav bar-->
+<link href = 'css/Navigation.css ' rel = 'stylesheet'>
+<!--Favicon-->
+<link rel="shortcut icon" type="images/png" href="images/favicon.png">
+<!--What shows in the tab--> 
+<title>The Life of Jazzy</title>
+<!--Navigational bar-->
+
+
+</head>
+
+<!--start of body-->
+<body>
+    <header>
+        <div class="logo"> LOGO</div>
+        <nav class="active">
+            <ul>
+                <li><a href="Home.html" class="active">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Experience.html">Experience</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Hobbies.html">Hobbies</a></li>
+                <li><a href="Likes">Likes</a></li>
+                <li><a href="Lore">Lore</a></li>
+                <li><a href="Novels">Novels</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></div>
+    </header>
+
+<!--This is for the toggle for mobile--> 
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav');
+        menuToggle.addEventListener('click', () => {
+            if (nav.className != 'active') {nav.className = 'active';}
+            else {nav.className = '';}
+        });
+    </script>
+
+</body>
+</html>
+
