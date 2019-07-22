@@ -8,11 +8,17 @@
 
 <!--Link to nav bar-->
 <link href = 'css/Navigation.css ' rel = 'stylesheet'>
+<!--link to the meat of the page--> 
+<link rel="stylesheet" type="text/css" href="css/normal.css">
 <!--Favicon-->
 <link rel="shortcut icon" type="images/png" href="images/favicon.png">
 <!--What shows in the tab--> 
 <title>The Life of Jazzy</title>
 <!--Navigational bar-->
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 
 </head>
@@ -42,7 +48,42 @@
             </ul>
             </nav>
         </div>
+
+
     </header>
+
+    <div class="carousel">
+    <a class="carousel-item" href="#one"><img src="images/bald.jpg">
+     <h2>3D CAROUSEL</h2>
+     </a>
+    <a class="carousel-item" href="#two"><img src="images/beach.jpg">
+     <h2>3D CAROUSEL</h2>
+     </a>
+    <a class="carousel-item" href="#three"><img src="images/convention.jpg">
+     <h2>3D CAROUSEL</h2>
+     </a>
+    <a class="carousel-item" href="#four"><img src="images/Friends.jpg">
+     <h2>3D CAROUSEL</h2>
+     </a>
+    <a class="carousel-item" href="#five"><img src="images/Heart.jpg">
+     <h2>3D CAROUSEL</h2>
+     </a>
+     <a class="carousel-item" href="#six"><img src="images/old friends.jpg">
+     <h2>3D CAROUSEL</h2>
+     </a>
+     <a class="carousel-item" href="#seven"><img src="images/prom.jpg">
+     <h2>3D CAROUSEL</h2>
+     </a>
+     <a class="carousel-item" href="#eight"><img src="images/Siblings.jpg">
+     <h2>3D CAROUSEL</h2>
+
+      <script>
+  $(document).ready(function(){
+    $('.carousel').carousel();
+  });
+</script>
+     </a>
+   </div>
 
 </body>
 </html>

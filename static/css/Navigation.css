@@ -20,8 +20,8 @@ a{
 
 header{
 	width: 100%;
-	height: 100vh;
-	background: url('beach.jpg') center no-repeat;
+	height: 100%;
+	background: grey;
 	background-size: cover;
 }
 
